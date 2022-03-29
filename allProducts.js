@@ -40,7 +40,7 @@ class UI {
 									<div class="product-information">
 										<h3>${product.name} <a href="#">Cosmetic</a></h3>
 										<div class="product_price">
-                    &#8358;${product.price}
+                    &#8358; ${product.price.toLocaleString()}
 										</div>
 									</div>
 								</div>
