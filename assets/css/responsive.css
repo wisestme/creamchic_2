@@ -1,0 +1,278 @@
+/************************************/
+/*****    13. Media Screens     *****/
+/************************************/
+
+@media only screen and (max-width: 1200px){
+	.navbar-default .navbar-nav>li>a:after{
+		padding: 0 12px 0 14px;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	
+	nav.navbar.bootsnav .navbar-header{
+		padding-left: 0;
+		padding-right: 0;
+		position: relative;
+	}
+	
+	nav.navbar.bootsnav.sticky-header .navbar-brand,
+	nav.navbar.bootsnav .navbar-brand{
+		display: block;
+		padding: 14px 0 13px;
+	}
+	
+	nav.navbar.bootsnav .navbar-collapse{
+		background: #fe60a1;
+		background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+		background: -webkit-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+		background: -moz-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+		background: -o-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+		padding: 0 15px;
+		margin: 0;
+	}
+	
+	nav.navbar.bootsnav .navbar-toggle{
+		background: none;
+		height: 36px;
+		width: 36px;
+		color: #fff;
+		margin: 0;
+		border: 1px solid #fff;
+		border-radius: 0;
+		position: absolute;
+		right: 0;
+		top: 16px;
+	}
+	
+	nav.navbar.bootsnav .navbar-nav{
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav.navbar.bootsnav.sticky-header ul.nav > li > a,
+	nav.navbar.bootsnav ul.nav > li > a{
+		padding: 14px 0;
+		border: none;
+		margin: 0;
+	}
+	
+	nav.navbar.bootsnav ul.nav > li > a:after{
+		display: none;
+	}
+	
+	nav.navbar.bootsnav ul.nav > li > a:hover{
+		background: rgba(255,255,255,0) !important;
+		color: #333c4e !important;
+	}
+
+	nav.navbar.bootsnav ul.nav > li.active > a{
+		background: rgba(255,255,255,0) !important;
+		color: #333c4e !important;
+	}
+	
+	nav.navbar.bootsnav.sticky-header .navbar-nav{
+		padding-top: 0;
+	}
+	
+	.swiper-button-group{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	
+	.swiper-button-next,
+	.swiper-button-prev{
+		display: inline-block;
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		color: #fe7088;
+		margin: 0 8px;
+	}
+	
+	.feature-image{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	
+	.features-single:before{
+		display: none;
+	}
+	
+	.testimonial-slider{
+		margin-top: 30px;
+	}
+	
+	.newsletter-box{
+		margin-bottom: 30px;
+	}
+	
+	.contact-form{
+		margin-bottom: 40px;
+	}
+	
+	.process-header{
+		margin-bottom: 30px;
+	}
+	
+	.footer-siteinfo,
+	.footer-quicklinks{
+		margin-bottom: 30px;
+	}
+}
+
+/* Mobile Layout */
+@media only screen and (max-width: 767px){
+	
+	nav.navbar.bootsnav.sticky-header .navbar-brand,
+	nav.navbar.bootsnav .navbar-brand{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	nav.navbar.bootsnav .navbar-toggle{
+		right: 15px;
+	}
+	
+	nav.navbar.bootsnav .navbar-collapse{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	
+	.banner:before{
+		display: none;
+	}
+	
+	.section-title{
+		margin-bottom: 60px;
+	}
+	
+	.section-title h2,
+	.contact h2{
+		font-size: 26px;
+	}
+	
+	.section-title p{
+		font-size: 14px;
+	}
+	
+	.header-content{
+		margin-bottom: 40px;
+	}
+	
+	.header-content h2{
+		font-size: 36px;
+	}
+	
+	.header-content p{
+		font-size: 16px;
+	}
+	
+	.swiper-button-group{
+		padding-bottom: 30px;
+	}
+	
+	.swiper-button-next,
+	.swiper-button-prev{
+		color: #fff;
+	}
+	
+	.banner{
+		padding: 80px 0;
+	}
+	
+	.benefits,
+	.features,
+	.testimonials,
+	.products,
+	.categories,
+	.newsletter,
+	.contact,
+	.our-process{
+		padding: 60px 0;
+	}
+	
+	.benefits-image{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	
+	.benefits-content ul li{
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.ordernow-entry{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	
+	.ordernow-image{
+		margin: 0;
+	}
+	
+	.newsletter:after,
+	.newsletter:before{
+		display: none;
+	}
+	
+	.newsletter-form{
+		border: none;
+		text-align: center;
+	}
+	
+	.newsletter-form .form-control{
+		border: 2px solid #fff;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.btn-subscribe{
+		display: inline-block;
+		width: 160px;
+		border-radius: 2px;
+	}
+	
+	.newsletter-box{
+		padding-left: 0;
+		padding-top: 70px;
+		text-align: center;
+	}
+	
+	.newsletter-box:before{
+		line-height: 1em;
+		left: 50%;
+		transform: translate(-50%,0);
+	}
+	
+	.newsletter-box h2{
+		font-size: 24px;
+	}
+	
+	.process-single{
+		margin-bottom: 30px;
+	}
+}
+
+/* Small Mobile Layout */
+
+@media only screen and (max-width: 480px) {
+	.features-single{
+		padding-left: 0;
+		padding-top: 60px;
+		margin-bottom: 30px;
+	}
+
+	.features-single:last-child{
+		margin-bottom: 0;
+	}
+	
+	footer{
+		padding-bottom: 30px;
+	}
+}

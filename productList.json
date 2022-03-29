@@ -1,0 +1,254 @@
+ [
+	{
+		"id": "0001",
+		"name": "Anew Vitamin C Glow Set",
+		"price": 23280,
+		"description": "Combine this Triple System and enjoy maximum Results of Radiance and Youthful Glow on your Face.",
+		"details": "Can be bought as a Combo or individually. Suitable for All Skin Types"
+		
+	},
+
+	{
+		"id": "0002",
+		"name": "Matte Legend Lipstick",
+		"price": 3900,
+		"description": "Pigment-Packed Pro Bullet for sculpted Lips",
+		"details": "No Liner or Brush needed. 3 in 1 Primer, Pigment and Precision.",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0003",
+		"name": "Man Set",
+		"price": 11500,
+		"description": "Avon Man Eau de Toilette is a conspicuously masculine fragrance that will give you self-confidence at any time of the day.",
+		"details": "Can be bought as a Combo or individually. Suitable for All Skin Types",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0004",
+		"name": "Black Suede",
+		"price": 23280,
+		"description": "Nodescription yet",
+		"details": "No details yet",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0005",
+		"name": "Care Hand Creams",
+		"price": 1200,
+		"description": "Our Collection of Handcreams ranges from Intense Hydration to Anti ageing. ",
+		"details": "Smells nice, 75ml each. Suitable for All Skin Types. ",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0006",
+		"name": "Face Mask Collection",
+		"price": 3000,
+		"description": "Choose the Mask that\"s right for your skin and give your skin a treat.",
+		"details": "Avon Skincare Collection of Face Mask for everyday use.",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0007",
+		"name": "True Glimmerstick Eyeliner",
+		"price": 1700,
+		"description": "Make an impact with our array of bold Eyeliners.",
+		"details": "Creamy and Smooth Glide on. Perfect Precision.",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0008",
+		"name": "True Nourishing Lip Oil",
+		"price": 2500,
+		"description": "Non- sticky Lip Oil with a tint of Colour.",
+		"details": " It promises to lock in 3 times more moisture. Enriched with Jojoba, Avocado and Coconut Oil alongside Vitamin E.",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0009",
+		"name": "Naturals Kids Body Wash",
+		"price": 2000,
+		"description": "Gently Cleansing 2 in 1 Bubble Body Wash.",
+		"details": "Tear Free Foaming 2 in 1.",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0010",
+		"name": "Perfect Wear 8-in-1 Eyeshadow",
+		"price": 6360,
+		"description": "Impactful Eye Shadow in beautiful new shades.",
+		"details": "Has a built in primer for even, smooth application. ",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0011",
+		"name": "Planet Spa Ayurveda Set of 3",
+		"price": 8500,
+		"description": "Ayurveda Body Butter, Multi-Use Oil and Face Mask to Pamper your Skin.",
+		"details": "Calming, Exfoliation and Pore-Minimising.",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0012",
+		"name": "Powerstay Concealer",
+		"price": 2900,
+		"description": "When you have dark circles and imperfections, concealers can be godsend!",
+		"details": "18 Hours of just applied freshness is at your fingertips. ",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0013",
+		"name": "Nutra Effects Soothe Micellar Range",
+		"price": 10500,
+		"description": "Flawless looking Skin anyone?",
+		"details": "Wipe, Gel Cleanser, Micellar Water, Face Cream",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0014",
+		"name": "Bubble Bath Range",
+		"price": 2500,
+		"description": "Family Size Bathroom Heroes in 1000ml",
+		"details": "1,000ml",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0015",
+		"name": "Pure Temptation by Tabitha Webb",
+		"price": 10000,
+		"description": "A light & feminine fragrance perfect to take you from Day into Night",
+		"details": "EDT 75ml",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0016",
+		"name": "Skin So Soft",
+		"price": 3800,
+		"description": "Original Dry Oil Spray with Jojoba",
+		"details": "For moisturised, smooth and nourished skin, dry oil spray infused with natural oils 150ml",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0017",
+		"name": "Attraction for Her Essence De Parfum",
+		"price": 8300,
+		"description": "Luxury in just 1 Drop. Captured in a luxury gel of upto 200 drops. ",
+		"details": "EDP 15ml",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0018",
+		"name": "Mesmerize Black For Her Set",
+		"price": 7800,
+		"description": "A magically hypnotic cocktail of mandarin and delicious red fruits, rich jasmine, sensual sandalwood and seductive tonka beans.",
+		"details": "EDT 50ml, Body Lotion 150ml",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0019",
+		"name": "Luck For Him Set",
+		"price": 10000,
+		"description": "Want a fragrance for men truly intoxicating? Look no further ",
+		"details": "EDT 75ml, Body Spray 150ml, Hair & Body Wash 200ml",
+		"image": "./images/cream0001.jpg"
+	},
+	
+	{
+		"id": "0020",
+		"name": "Tahitian Holiday Set",
+		"price": 5800,
+		"description": "Love Coconut Scents? Here\"s the Scent of Summer",
+		"details": "EDT 50ml, Body Mist 150ml",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0021",
+		"name": "Far Away Infinity Set",
+		"price": 9600,
+		"description": "How Far can you go to smell Great? Escape to an exotic land with this Set",
+		"details": "EDP 50ml, Body Lotion 150ml, Purse Spray 10ml",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0022",
+		"name": "Anew Ultimate Skincare Program Kit",
+		"price": 10000,
+		"description": "Four Steps to Younger looking Skin in 2 weeks for Age 45-55.",
+		"details": "Contains a Day Cream, Night Cream, Eye Cream & Serum.",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0023",
+		"name": "Beauty Sleep Pyjamas Set",
+		"price": 9000,
+		"description": "Step into the Beauty Sleep like a Queen in these Cotton P.J Set",
+		"details": "Available in 8-10, 12-14, 16-18(Low Stock)",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0024",
+		"name": "Roll-Ons Deodorant",
+		"price": 1300,
+		"description": "Keeps you fresh All Day Long.",
+		"details": "50ml and suitable for All Skin Types.",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0025",
+		"name": "Advance Technique Hair Sprays, Leave in Treatment",
+		"price": 2800,
+		"description": "Give your hair the treatment it deserves with Avon Advance Formulas",
+		"details": "Hair Spray Hold, Leave in Treatment",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0026",
+		"name": "Avon Gel Shine Nail Enamel",
+		"price": 3200,
+		"description": "keeping your nails long and colourful with no UV lamp or Shellac required.",
+		"details": "10ml",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0027",
+		"name": "Advance Technique Hair Care Range.",
+		"price": 2500,
+		"description": "From Shampoos to Conditioners, Hair Treatments, Serums",
+		"details": "Advance Technique Hair Treatment",
+		"image": "./images/cream0001.jpg"
+	},
+
+	{
+		"id": "0028",
+		"name": "Avon Gel Shine Nail Enamel.",
+		"price": 3200,
+		"description": "Sweep on long lasting salon style gel nail enamel for a lasting manicure at home",
+		"details": "10ml",
+		"image": "./images/cream0001.jpg"
+	}
+	
+]

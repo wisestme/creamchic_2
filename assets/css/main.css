@@ -1,0 +1,1065 @@
+
+/* INDEX
+----------------------------------------------------------------------------------------
+01. General css
+02. Navigation area css
+03. Slider area css
+04. about area css
+05. Order Now area css
+06. about area css
+07. Testimonials area css
+08. Products area css
+09. Newsletters area css
+10. Contact area css
+11. Our Process area css
+12. Footer area css
+13. Media Screens
+-------------------------------------------------------------------------------------- */
+
+/************************************/
+/***** 	   01. General css		 ****/
+/************************************/
+
+:root {
+	--primary-color: #0e1c36;
+	--primary_varaint: #1d2e4c;
+	--background: rgb(255, 255, 255);
+	--secondary_color: #e31d5a;
+	--secondary_variant: #fe60a1;
+	--on_primary: rgb(250, 250, 250);
+	--on_background: rgb(66, 66, 66);
+	--on_background_alt: rgba(66, 66, 66, 0.7);
+	--box_shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
+	--accent: #e31d5a;
+	--tint_start: rgba(0,0,0, 0.5);
+	--tint_end: rgba(0,0,0, 0.8);
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin-top:0;
+	font-weight: 500;
+}
+
+img{
+	max-width: 100%;
+}
+
+a:hover{
+	text-decoration: none;
+	outline: 0;
+}
+
+a:focus{
+	text-decoration: none;
+	outline: 0;
+}
+
+.preloader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	background: var(--secondary_color);
+	background: linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	background: -webkit-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	background: -moz-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	background: -o-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	z-index: 9999;
+}
+
+.loader{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	border: 4px solid #Fff;
+	top: calc(50% - 15px);
+	animation: loader 2s infinite ease;
+}
+
+.loader-inner{
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+	animation: loader-inner 2s infinite ease-in;
+}
+
+.btn-custom{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 14px 30px;
+	min-width: 170px;
+	text-align: center;
+	color: #fff;
+	box-shadow: 1px 2px 46px 0px rgba(0,0,0,0.1);
+	background: #16c9f6;
+	background: linear-gradient(to left, #3ccdbb 0%, #16c9f6 100%);
+	background: -webkit-linear-gradient(to left, #3ccdbb 0%, #16c9f6 100%);
+	background: -moz-linear-gradient(to left, #3ccdbb 0%, #16c9f6 100%);
+	background: -o-linear-gradient(to left, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.btn-custom:hover{
+	background: #16c9f6;
+	color: #fff;
+}
+
+.flex {
+	display: flex;
+}
+
+/************************************/
+/***** 02. Navigation area css  *****/
+/************************************/
+header .logo {
+	border-radius: 50%;
+}
+nav.navbar.bootsnav{
+	background: none !important;
+	z-index: 60;
+	border-bottom: 1px solid transparent;
+}
+
+nav.navbar.bootsnav .navbar-nav{
+	padding-top: 30px;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand{
+	height: auto;
+	padding: 25px 15px;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-right{
+	margin-right: 0;
+}
+
+nav.navbar.bootsnav ul.nav > li{
+	padding: 0 2px;
+}
+
+nav.navbar.bootsnav ul.nav > li > a{
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 20px;
+	line-height: 1em;
+	border-radius: 40px;
+	letter-spacing: 0.05em;
+	transition: all 0.3s ease-in-out;
+}
+
+nav.navbar.bootsnav ul.nav > li > a:hover{
+	background: rgba(255,255,255,0.2) !important;
+    color: #333c4e !important;
+}
+
+nav.navbar.bootsnav ul.nav > li.active > a{
+	background: rgba(255,255,255,0.2) !important;
+    color: #333c4e !important;
+}
+
+
+nav.navbar.bootsnav.sticky-header{
+	background: var(--secondary_color) !important;
+    background: linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%) !important;
+    background: -webkit-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%) !important;
+    background: -moz-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%) !important;
+    background: -o-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%) !important;
+    transition: all 0.3s ease-out;
+}
+
+nav.navbar.bootsnav.sticky-header .navbar-brand{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+nav.navbar.bootsnav.sticky-header .navbar-nav{
+	padding-top: 20px;
+}
+
+.nav_bar{
+	background: linear-gradient(180deg, var(--secondary_variant) 0%, var(--secondary_color) 100%);
+	border-radius: 10px;
+}
+
+/************************************/
+/*****   03. Slider area css    *****/
+/************************************/
+
+.swiper-button-prev{
+	top: 70%;
+	left: 20px;
+}
+
+.swiper-button-next{
+	top: 30%;
+	right: 20px;
+}
+
+.header-slider-btn{
+	background: none;
+	color: #fff;
+	font-size: 60px;
+}
+
+.categories {
+	position: relative;
+}
+.category_slider_btn{
+	position: absolute;
+	background: none;
+	color: rgb(167, 42, 42);
+	font-size: 60px;
+}
+
+.banner{
+	position: relative;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	background: var(--secondary_color);
+	background: linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	background: -webkit-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	/* background: -moz-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%); */
+	/* background: -o-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%); */
+	padding: 140px 0 60px;
+}
+
+.banner:before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -1px;
+	height: 0;
+	width: 100%;
+	overflow: hidden;
+	border-width: 30vw 100vw 0px 0;
+	border-style: solid;
+	border-color: transparent #fff transparent transparent ;
+}
+
+.banner .row{
+	position: relative;
+	z-index: 1;
+}
+
+.header-content{
+	padding-top: 40px;
+}
+
+.header-content h2{
+	font-size: 52px;
+	color: #fff;
+	font-weight: 300;
+	line-height: 1.2em;
+	margin-bottom: 0.6em;
+}
+
+.header-content h2 span {
+    background: #fff;
+    color: #20bea7;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 6px 14px;
+}
+
+.header-content p{
+	color: #fff;
+	line-height: 1.5em;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+	margin-bottom: 1.8em;
+}
+
+.header-content p span{
+	font-weight: 700;
+}
+
+.btn-buynow{
+	display: inline-block;
+	background: #fe7088;
+	border: 2px solid #fe7088;
+	border-radius: 26px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+
+.arrow-left i{
+	padding-right: 10px;
+}
+
+.arrow-right i{
+	padding-left: 10px;
+}
+
+.btn-buynow:hover{
+	background: #fff;
+	color: #fe7088;
+}
+
+.buy-button .btn-buynow{
+	background: none;
+	border-color: #fff;
+	color: #fff;
+}
+
+.buy-button .btn-buynow:hover{
+	background: #fff;
+	color: #fe7088;
+}
+
+.slider-image{
+	text-align: center;
+}
+
+/************************************/
+/*****   04. about area css  *****/
+/************************************/
+
+.section-title{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.section-title p{
+	text-transform: uppercase;
+	color: #b7c2ca;
+	letter-spacing: 0.04em;
+}
+
+.section-title h2{
+	color: #333c4e;
+	font-weight: 600;
+	font-size: 36px;
+	padding-bottom: 14px;
+	position: relative;
+}
+
+.section-title h2:after{
+	content: '';
+	display: block;
+	width: 40px;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -20px;
+	background: var(--secondary_color);
+	background: linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	background: -webkit-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	background: -moz-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+	background: -o-linear-gradient(45deg, var(--secondary_color) 0%, var(--secondary_variant) 100%);
+}
+
+.about{
+	padding: 100px 0;
+}
+
+.about .section-title{
+	text-align: left;
+}
+
+.about .section-title h2:after{
+	left: 0;
+	margin-left: 0;
+}
+
+.about .section-title{
+	margin-bottom: 40px;
+}
+
+.about-content p{
+	font-size: 16px;
+	color: #7e8890;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.about-content ul{
+	padding: 0;
+	margin: 0 0 1.5em;
+	list-style: none;
+}
+
+.about-content ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.about-content ul li{
+	font-size: 16px;
+	color: #7e8890;
+	float: left;
+	width: 48%;
+	padding: 6px 0 6px 30px;
+	position: relative;
+	margin-right: 2%;
+}
+
+.about-content ul li:before{
+	content: '\f10e';
+	display: block;
+	font-family: "Flaticon";
+	color: #fe7088;
+	position: absolute;
+	top: 6px;
+	left: 0;
+}
+
+.test_border {
+	border: 2px solid red;
+
+}
+.about_image_container {
+	align-items: center;
+	justify-content: center;
+}
+
+/************************************/
+/*****   05. Order Now area css  ****/
+/************************************/
+
+.ordernow{
+	padding: 60px 0;
+	background: #fe60a1;
+	background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -webkit-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -moz-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -o-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.ordernow-entry h2{
+	color: #fff;
+	font-weight: 600;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.ordernow-entry p{
+	color: #fff;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+
+.ordernow .btn-buynow{
+	background: none;
+	border-color: #fff;
+	color: #fff;
+}
+
+.ordernow .btn-buynow:hover{
+	background: #fff;
+	color: #fe7088;
+}
+
+.ordernow-image{
+	position: relative;
+	margin-top: -120px;
+	margin-bottom: -120px;
+	text-align: center;
+}
+
+.ordernow-image img {
+	width: 90%;
+	display: block;
+	object-fit: contain;
+}
+
+/************************************/
+/*****   06. about area css  *****/
+/************************************/
+
+.features{
+	padding: 100px 0;
+}
+
+.features-single{
+	position: relative;
+	padding-left: 80px;
+	padding-bottom: 30px;
+}
+
+.features-single:before{
+	content: '';
+	display: block;
+	width: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 30px;
+	border-left: 1px dashed #fe7088;
+}
+
+.features-single .icon-box{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	padding: 4px;
+	border: 1px solid #fe7088;
+}
+
+.features-single .icon-box i{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	padding-top: 4px;
+	border-radius: 50%;
+	background: #fe60a1;
+	background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -webkit-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -moz-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -o-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+}
+
+.features-single h3{
+	color: #333c4e;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 14px 0;
+}
+
+.features-single p{
+    font-size: 16px;
+    color: #7e8890;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.features-single .btn-buynow{
+	margin-top: 20px;
+}
+
+/******************************************/
+/*****   07. Testimonials area css    *****/
+/******************************************/
+
+.testimonials{
+	padding: 100px 0;
+	position: relative;
+	background: url(../images/testimonial.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.testimonials:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fe60a1;
+	background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -webkit-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -moz-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -o-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	opacity: 0.9;
+}
+
+.testimonials .section-title{
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.testimonials .section-title p,
+.testimonials .section-title h2{
+	color: #fff;
+}
+
+.testimonials .section-title h2:after{
+	left: 0;
+	margin-left: 0;
+	background: #fff;
+}
+
+.testimonial-heading p{
+	color: #fff;
+}
+
+.testimonial-single{
+	background: #fff;
+	padding: 30px;
+	margin-top: 40px;
+	padding-top: 50px;
+}
+
+.testimonial-author{
+	width: 80px;
+	position: absolute;
+	top: 0;
+	background: #fff;
+	padding: 8px;
+}
+
+.testimonial-single p{
+	font-size: 14px;
+    color: #7e8890;
+    line-height: 1.5em;
+}
+
+.testimonial-single h3{
+	font-size: 16px;
+    color: #333c4e;
+	font-weight: 600;
+}
+
+.testimonial-single h3 span{
+	font-size: 14px;
+	font-weight: 400;
+	color: #fe7088;
+	padding-left: 6px;
+}
+
+.testimonial-pagination{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.testimonial-pagination .swiper-pagination-bullet{
+	background: none;
+	border: 1px solid #fff;
+	width: 10px;
+	height: 10px;
+	border-radius: 0;
+}
+
+/*****************************************/
+/*****     08. Products area css     *****/
+/*****************************************/
+
+.products,
+.categories {
+	padding: 100px 0;
+}
+
+.product-image,
+.category-image {
+	position: relative;
+}
+
+.product-image figure,
+.category-image figure {
+	position: relative;
+	overflow: hidden;
+}
+/*  */
+.product-image figure::before,
+.category-image figure::before{
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+
+.product-single:hover .product-image figure:before,
+.category-single:hover .category-image figure:before{
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+
+@-webkit-keyframes shine{
+	100% {
+		left: 125%;
+	}
+}
+
+@keyframes shine{
+	100% {
+		left: 125%;
+	}
+}
+
+.category-information h3{
+	font-size: 18px;
+	font-weight: 700;
+	color: #333c4e;
+	padding-top: 20px;
+}
+
+.category-information h3 a{
+	float: right;
+	font-size: 12px;
+	color: #7e8890;
+	font-weight: 400;
+	padding-top: 4px;
+}
+
+.category-information h3 a:hover{
+	color: #fe7088;
+}
+
+.category-rating{
+	font-size: 12px;
+	color: #fe7088;
+	margin-bottom: 6px;
+}
+
+.price{
+	font-size: 26px;
+	color: #333c4e;
+}
+
+.price del{
+	position: relative;
+	text-decoration: none;
+	color: #b7c2ca;
+}
+
+.price del:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 52%;
+	left: 2px;
+	right: 0;
+	height: 1px;
+	background: #7e8890;
+	transform: rotate(20deg);
+}
+
+.price del:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 52%;
+	left: 2px;
+	right: 0;
+	height: 1px;
+	background: #7e8890;
+	transform: rotate(-20deg);
+}
+
+/**************************************/
+/*****  09. Newsletters area css  *****/
+/**************************************/
+
+.newsletter{
+	background: #fe60a1;
+	background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -webkit-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -moz-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	background: -o-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+	padding: 100px 0;
+	position: relative;
+}
+
+.newsletter:before{
+	content: '';
+	display: block;
+	height: 0;
+	width: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 40px solid transparent;
+	border-left: calc(100vw - 17px) solid #fff;
+}
+
+.newsletter:after{
+	content: '';
+	display: block;
+	height: 0;
+	width: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 40px solid #fff;
+	border-right: calc(100vw - 17px) solid transparent;
+}
+
+.newsletter-box{
+	position: relative;
+	padding-left: 80px;
+}
+
+.newsletter-box:before{
+	content: '\f003';
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: 0;
+	font-size: 60px;
+	color: #fff;
+	font-family: FontAwesome;
+}
+
+.newsletter-box h2{
+	color: #fff;
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.newsletter-box p{
+	color: #fff;
+	margin: 0;
+}
+
+.newsletter-form{
+	max-width: 480px;
+	margin-top: 16px;
+	border-radius: 4px;
+	background: none;
+	border: 2px solid #fff;
+	box-sizing: content-box;
+	overflow: hidden;
+}
+
+.newsletter-form .form-group{
+	width: 100%;
+}
+
+.newsletter-form .form-control{
+	float: left;
+	width: 70%;
+	border: none;
+	background: none;
+	height: 48px;
+	outline: 0;
+	box-shadow: none;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.newsletter-form .form-control::-webkit-input-placeholder{
+	color: white;
+}
+
+.newsletter-form .form-control:-moz-placeholder{
+	color: white;
+}
+
+.newsletter-form .form-control::-moz-placeholder {
+	color: white;
+}
+.newsletter-form .form-control:-ms-input-placeholder{
+	color: white;
+}
+
+.newsletter-form .form-control::-ms-input-placeholder{ 
+	color: white;
+}
+
+.btn-subscribe{
+	height: 48px;
+	background: #fff;
+	border: none;
+	width: 30%;
+	color: #fe7088;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	outline: 0;
+	box-shadow: none;
+}
+
+/**************************************/
+/*****    10. Contact area css    *****/
+/**************************************/
+
+.contact{
+	padding: 100px 0;
+}
+
+.contact h2{
+	color: #333c4e;
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 14px;
+    position: relative;
+	margin-bottom: 50px;
+}
+
+.contact h2:after{
+	content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fe60a1;
+    background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+    background: -webkit-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+    background: -moz-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+    background: -o-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+}
+
+.contact-form .form-control{
+	box-shadow: none;
+	border-radius: 0;
+	height: auto;
+	padding: 8px 14px;
+	border: 1px solid #b7c2ca;
+	resize: none;
+}
+
+.btn-contact{
+	display: inline-block;
+    background: #fe7088;
+    border: 2px solid #fe7088;
+    border-radius: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 20px;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+	outline: 0;
+	box-shadow: none;
+    transition: all 0.3s;
+}
+
+.btn-contact i{
+	padding-right: 10px;
+}
+
+.btn-contact:hover{
+	background: #fff;
+	color: #fe7088;
+}
+
+.offer-pagination,
+.categories_pagination,
+.latest_products_pagination {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.offer-pagination .swiper-pagination-bullet,
+.categories_pagination .swiper-pagination-bullet{
+	width: 12px;
+	height: 12px;
+	border-radius: 0;
+	background: #fe7088;
+}
+
+/******************************************/
+/*****    11. Our Process area css    *****/
+/******************************************/
+
+.our-process{
+	padding: 80px 0;
+	background: #fe60a1;
+    background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+    background: -webkit-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+    background: -moz-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+    background: -o-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+}
+
+.process-header h2{
+	color: #fff;
+	font-weight: 600;
+	padding-top: 12px;
+}
+
+.process-header p{
+	color: #fff;
+	margin: 0;
+}
+
+.process-single{
+	text-align: center;
+}
+
+.process-single .icon-box{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 40px;
+	padding-top: 12px;
+	border-radius: 50%;
+	border: 1px dashed rgba(255,255,255,0.5);
+}
+
+.process-single h3{
+	font-weight: 600;
+	color: #fff;
+	font-size: 18px;
+	margin: 10px 0 0;
+	letter-spacing: 0.02em;
+}
+
+/*************************************/
+/*****    12. Footer area css    *****/
+/*************************************/
+
+footer{
+	padding: 60px 0;
+}
+
+.footer-siteinfo img{
+	margin-bottom: 20px;
+}
+
+.footer-siteinfo p{
+	color: #7e8890;
+}
+
+.footer-quicklinks h3{
+	font-size: 18px;
+	font-weight: 600;	
+	color: #333c4e;
+}
+
+.footer-quicklinks ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.footer-quicklinks ul li a{
+	display: block;
+	font-size: 14px;
+	color: #7e8890;
+	padding: 3px 0;
+}
