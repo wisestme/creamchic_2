@@ -42,36 +42,39 @@
 	});
 
 	/* Product slider */
-	var swiper = new Swiper('.product-slider', {
-		grabCursor: true,
-		speed: 1500,
-		autoplay: true,
-		slidesPerView: 4,
-		spaceBetween: 30,
-		breakpoints: {
-			480: {
-				slidesPerView: 1
-			},
-			
-			768: {
-				slidesPerView: 2
+	window.addEventListener('load', ()=> {
+		var swiper = new Swiper('.product-slider', {
+			grabCursor: true,
+			speed: 1500,
+			autoplay: true,
+			slidesPerView: 4,
+			spaceBetween: 30,
+			breakpoints: {
+				480: {
+					slidesPerView: 1
+				},
 				
-			},
-			
-			991: {
-				slidesPerView: 3
+				768: {
+					slidesPerView: 2
+					
+				},
 				
-			}
-		},
-		pagination: {
-			el: '.categories_pagination',
-			clickable: true
-		},
-		// navigation: {
-		// 	nextEl: '.swiper-button-next',
-		// 	prevEl: '.swiper-button-prev',
-		// 	},
-	});
+				991: {
+					slidesPerView: 3
+					
+				}
+			},
+			pagination: {
+				el: '.categories_pagination',
+				clickable: true
+			},
+			// navigation: {
+			// 	nextEl: '.swiper-button-next',
+			// 	prevEl: '.swiper-button-prev',
+			// 	},
+		});
+	}, false)
+	
 	
 	/* Category slider */
 	var swiper = new Swiper('.category_slider', {
