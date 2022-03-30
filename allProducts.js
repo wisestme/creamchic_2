@@ -11,9 +11,9 @@ class Products{
       let data = await result.json();
       let products = data;
       products = products.map(item => {
-        const {id,name,price,description,details,image} = item;
+        const {id,name,price,description,details,image,category} = item;
         console.log(image, name);
-        return {id, name, price, description, details, image};
+        return {id, name, price, description, details, image, category};
       })
       return products;
     } catch (error) {
@@ -38,7 +38,7 @@ class UI {
 									</div>
 									
 									<div class="product-information">
-										<h3>${product.name} <a href="#">Cosmetic</a></h3>
+										<h3>${product.name} <a href="#">${product.category}</a></h3>
 										<div class="product_price">
                     &#8358; ${product.price.toLocaleString()}
 										</div>
