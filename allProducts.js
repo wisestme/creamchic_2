@@ -35,10 +35,11 @@ class UI {
 										<figure>
 											<img src="./assets/images/cream${product.id}.jpg" alt="" />
 										</figure>
+                    <p>${product.category}</p>
 									</div>
 									
 									<div class="product-information">
-										<h3>${product.name} <a href="#">${product.category}</a></h3>
+										<h3>${product.name}</h3>
 										<div class="product_price">
                     &#8358; ${product.price.toLocaleString()}
 										</div>
