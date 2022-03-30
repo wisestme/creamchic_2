@@ -301,8 +301,8 @@ nav.navbar.bootsnav.sticky-header .navbar-nav{
 
 .btn-buynow{
 	display: inline-block;
-	background: #fe7088;
-	border: 2px solid #fe7088;
+	background: var(--accent);
+	border: 2px solid var(--accent);
 	border-radius: 26px;
 	color: #fff;
 	text-transform: uppercase;
@@ -322,7 +322,7 @@ nav.navbar.bootsnav.sticky-header .navbar-nav{
 
 .btn-buynow:hover{
 	background: #fff;
-	color: #fe7088;
+	color: var(--accent);
 }
 
 .buy-button .btn-buynow{
