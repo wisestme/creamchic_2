@@ -1081,6 +1081,10 @@ footer{
 	padding: 0.2rem;
 }
 
+.product_price {
+	color: var(--accent);
+}
+
 .no_display {
 	display: none;
 }
