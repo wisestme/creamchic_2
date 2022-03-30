@@ -65,13 +65,13 @@
 				}
 			},
 			pagination: {
-				el: '.categories_pagination',
+				el: '.products_pagination',
 				clickable: true
 			},
-			// navigation: {
-			// 	nextEl: '.swiper-button-next',
-			// 	prevEl: '.swiper-button-prev',
-			// 	},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+				},
 		});
 	}, false)
 	

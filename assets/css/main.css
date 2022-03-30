@@ -221,10 +221,12 @@ nav.navbar.bootsnav.sticky-header .navbar-nav{
 	font-size: 60px;
 }
 
-.categories {
+.categories,
+.products {
 	position: relative;
 }
-.category_slider_btn{
+.category_slider_btn,
+.products_slider_btn{
 	position: absolute;
 	background: none;
 	color: rgb(167, 42, 42);
@@ -969,13 +971,15 @@ nav.navbar.bootsnav.sticky-header .navbar-nav{
 
 .offer-pagination,
 .categories_pagination,
-.latest_products_pagination {
+.latest_products_pagination,
+.products_pagination {
 	padding: 20px 0;
 	text-align: center;
 }
 
 .offer-pagination .swiper-pagination-bullet,
-.categories_pagination .swiper-pagination-bullet{
+.categories_pagination .swiper-pagination-bullet,
+.products_pagination .swiper-pagination-bullet {
 	width: 12px;
 	height: 12px;
 	border-radius: 0;
