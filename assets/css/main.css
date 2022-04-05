@@ -454,7 +454,7 @@ nav.navbar.bootsnav.sticky-header .navbar-nav{
 /*****   05. Order Now area css  ****/
 /************************************/
 
-.ordernow{
+.offer {
 	padding: 60px 0;
 	background: #fe60a1;
 	background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
@@ -466,39 +466,38 @@ nav.navbar.bootsnav.sticky-header .navbar-nav{
 	height: 100%;
 }
 
-.ordernow-entry h2{
+.offer-entry h2{
 	color: #fff;
 	font-weight: 600;
 	font-size: 36px;
 	margin-bottom: 10px;
 }
 
-.ordernow-entry p{
+.offer-entry p{
 	color: #fff;
 	line-height: 1.5em;
 	margin-bottom: 1.5em;
 }
 
-
-.ordernow .btn-buynow{
+.offer .btn-buynow{
 	background: none;
 	border-color: #fff;
 	color: #fff;
 }
 
-.ordernow .btn-buynow:hover{
+.offer .btn-buynow:hover{
 	background: #fff;
 	color: #fe7088;
 }
 
-.ordernow-image{
+.offer-image {
 	position: relative;
 	margin-top: -120px;
 	margin-bottom: -120px;
 	text-align: center;
 }
 
-.ordernow-image img {
+.offer-image img {
 	width: 90%;
 	display: block;
 	object-fit: contain;
